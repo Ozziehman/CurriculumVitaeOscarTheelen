@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum vitae Oscar Theelen</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="static\css\style.css">
 </head>
 <body>
-    <h1>Curriculum vitae Oscar Theelen</h1>
-    <h2>Personalia</h2>
-    <p>Naam: Oscar Theelen</p>
-    <p>Woonplaats: Amsterdam</p>
-    <p>Telefoon: 0612345678</p>
-    <p>E-mail:
+    <div class="container-fluid align-items-center justify-content-center text-center">
+        <h1 style="font-size: 60px; font-weight: bold; margin-top: 3%;">Curriculum vitae</h1>
+        <div class="row d-flex align-items-center justify-content-center text-center" style="margin-top:5%">
+            <div class="col-md-3">
+                <img src="static\image\profile-placeholder.jpg" alt="Oscar Theelen" width="500" height="500">
+            </div>
+            <div class="col-md-6">
+                <div class="dropdown">
+                    <p style="font-size: 60px; font-weight: initial;" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Oscar Theelen
+                    </p>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Personal Info 1</a>
+                        <a class="dropdown-item" href="#">Personal Info 2</a>
+                        <a class="dropdown-item" href="#">Personal Info 3</a>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+
+
 </body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </html>
+
